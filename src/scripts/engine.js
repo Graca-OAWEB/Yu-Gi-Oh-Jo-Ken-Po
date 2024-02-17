@@ -184,7 +184,7 @@ async function init() {
     await drawCardsInField();
 
     const bgm = document.getElementById("bgm");
-    // bgm.play(); ativar no final
+    bgm.play();
 }
 
 init();
