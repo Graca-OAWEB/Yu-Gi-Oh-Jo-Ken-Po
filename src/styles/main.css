@@ -161,3 +161,37 @@ a:hover {
 /* .debug{
     border: 5px solid red;
 } */
+
+@media screen and (max-width: 768px) {
+.container{
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container__left,.container__right{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+.container__left{
+    max-height: 25vh;   
+}
+.container__right{
+    max-height: 75vh;  
+}
+.card-versus-container{
+    height: auto;
+}
+.versus-bottom{
+    height: auto;
+}
+#card-image,.card_details{
+    padding: 1rem 0px;
+}
+
+#player-cards,#computer-cards{
+    padding: 4rem; 
+}
+
+   }
